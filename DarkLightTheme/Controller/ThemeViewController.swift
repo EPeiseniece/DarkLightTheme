@@ -19,17 +19,17 @@ class ThemeViewController: UIViewController {
 
     @IBAction func darkButtonTapped(_ sender: Any) {
         if isOn{
-            print("Dark theme on")
+            print("Blue theme on")
             self.isOn = false
-            self.darkButtonAdd.setTitle("Dark Theme on ", for: .normal)
-            self.darkButtonAdd.setTitleColor(UIColor.white, for: .normal)
-            self.view.backgroundColor = .black
-        }else{
-            print("Dark theme off")
-            self.isOn = true
-            self.darkButtonAdd.setTitle("Dark Theme off ", for: .normal)
+            self.darkButtonAdd.setTitle("Red Theme on ", for: .normal)
             self.darkButtonAdd.setTitleColor(UIColor.black, for: .normal)
-            self.view.backgroundColor = .white
+            self.view.backgroundColor = .blue
+        }else{
+            print("Red theme on")
+            self.isOn = true
+            self.darkButtonAdd.setTitle("Blue Theme on ", for: .normal)
+            self.darkButtonAdd.setTitleColor(UIColor.black, for: .normal)
+            self.view.backgroundColor = .red
         }
     }
     
