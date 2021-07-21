@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		EA115A6D26A878C5007095DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA115A6C26A878C5007095DA /* AppDelegate.swift */; };
 		EA115A6F26A878C5007095DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA115A6E26A878C5007095DA /* SceneDelegate.swift */; };
-		EA115A7126A878C5007095DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA115A7026A878C5007095DA /* ViewController.swift */; };
+		EA115A7126A878C5007095DA /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA115A7026A878C5007095DA /* ThemeViewController.swift */; };
 		EA115A7426A878C5007095DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA115A7226A878C5007095DA /* Main.storyboard */; };
 		EA115A7626A878C7007095DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA115A7526A878C7007095DA /* Assets.xcassets */; };
 		EA115A7926A878C7007095DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA115A7726A878C7007095DA /* LaunchScreen.storyboard */; };
-		EA115A8426A878C8007095DA /* DarkLightThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA115A8326A878C8007095DA /* DarkLightThemeTests.swift */; };
-		EA115A8F26A878C8007095DA /* DarkLightThemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA115A8E26A878C8007095DA /* DarkLightThemeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +36,13 @@
 		EA115A6926A878C5007095DA /* DarkLightTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkLightTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA115A6C26A878C5007095DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA115A6E26A878C5007095DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA115A7026A878C5007095DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA115A7026A878C5007095DA /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
 		EA115A7326A878C5007095DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA115A7526A878C7007095DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA115A7826A878C7007095DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA115A7A26A878C7007095DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA115A7F26A878C8007095DA /* DarkLightThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkLightThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA115A8326A878C8007095DA /* DarkLightThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightThemeTests.swift; sourceTree = "<group>"; };
-		EA115A8526A878C8007095DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA115A8A26A878C8007095DA /* DarkLightThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkLightThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA115A8E26A878C8007095DA /* DarkLightThemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightThemeUITests.swift; sourceTree = "<group>"; };
-		EA115A9026A878C8007095DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				EA115A6B26A878C5007095DA /* DarkLightTheme */,
-				EA115A8226A878C8007095DA /* DarkLightThemeTests */,
-				EA115A8D26A878C8007095DA /* DarkLightThemeUITests */,
 				EA115A6A26A878C5007095DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,33 +91,39 @@
 		EA115A6B26A878C5007095DA /* DarkLightTheme */ = {
 			isa = PBXGroup;
 			children = (
-				EA115A6C26A878C5007095DA /* AppDelegate.swift */,
-				EA115A6E26A878C5007095DA /* SceneDelegate.swift */,
-				EA115A7026A878C5007095DA /* ViewController.swift */,
-				EA115A7226A878C5007095DA /* Main.storyboard */,
+				EA115AA226A87E47007095DA /* AppDelegate */,
+				EA115AA126A87E0C007095DA /* Controller */,
+				EA115AA026A87DCB007095DA /* View */,
 				EA115A7526A878C7007095DA /* Assets.xcassets */,
-				EA115A7726A878C7007095DA /* LaunchScreen.storyboard */,
 				EA115A7A26A878C7007095DA /* Info.plist */,
 			);
 			path = DarkLightTheme;
 			sourceTree = "<group>";
 		};
-		EA115A8226A878C8007095DA /* DarkLightThemeTests */ = {
+		EA115AA026A87DCB007095DA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EA115A8326A878C8007095DA /* DarkLightThemeTests.swift */,
-				EA115A8526A878C8007095DA /* Info.plist */,
+				EA115A7226A878C5007095DA /* Main.storyboard */,
+				EA115A7726A878C7007095DA /* LaunchScreen.storyboard */,
 			);
-			path = DarkLightThemeTests;
+			path = View;
 			sourceTree = "<group>";
 		};
-		EA115A8D26A878C8007095DA /* DarkLightThemeUITests */ = {
+		EA115AA126A87E0C007095DA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EA115A8E26A878C8007095DA /* DarkLightThemeUITests.swift */,
-				EA115A9026A878C8007095DA /* Info.plist */,
+				EA115A7026A878C5007095DA /* ThemeViewController.swift */,
 			);
-			path = DarkLightThemeUITests;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA115AA226A87E47007095DA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EA115A6C26A878C5007095DA /* AppDelegate.swift */,
+				EA115A6E26A878C5007095DA /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA115A7126A878C5007095DA /* ViewController.swift in Sources */,
+				EA115A7126A878C5007095DA /* ThemeViewController.swift in Sources */,
 				EA115A6D26A878C5007095DA /* AppDelegate.swift in Sources */,
 				EA115A6F26A878C5007095DA /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA115A8426A878C8007095DA /* DarkLightThemeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA115A8F26A878C8007095DA /* DarkLightThemeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
