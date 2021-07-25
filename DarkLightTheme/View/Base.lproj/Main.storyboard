@@ -27,8 +27,8 @@
                                     <action selector="darkButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1LV-vI-VYx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Change the colorful themes!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="By0-Z0-ITK">
-                                <rect key="frame" x="31" y="139" width="353" height="77"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change the colorful themes!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="By0-Z0-ITK">
+                                <rect key="frame" x="31" y="139" width="352" height="77"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="77" id="JbQ-Cv-WyO"/>
                                 </constraints>
